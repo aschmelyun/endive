@@ -31,3 +31,17 @@
     }
   }
 }
+
+@mixin make-spaced-rows() {
+  @for $i from 1 through 9 {
+    .row-margin-top-#{$i} {
+      margin-top: #{$i}em;
+    }
+    .row-margin-bottom-#{$i} {
+      margin-bottom: #{$i}em;
+    }
+    .row-margin-both-#{$i} {
+      margin: #{$i}em 0;
+    }
+  }
+}
