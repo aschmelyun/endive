@@ -43,6 +43,20 @@ $default-wrapper-width-l-screen: 90%;
 $default-wrapper-width-xl-screen: 90%;
 $default-wrapper-margin: 0 auto;
 
+$default-heading-size-1: 3em;
+$default-heading-size-2: 2.5em;
+$default-heading-size-3: 1.75em;
+$default-heading-size-4: 1.25em;
+$default-heading-size-5: 1em;
+$default-heading-size-6: 0.85em;
+
+$heading-size-1: $default-heading-size-1;
+$heading-size-2: $default-heading-size-2;
+$heading-size-3: $default-heading-size-3;
+$heading-size-4: $default-heading-size-4;
+$heading-size-5: $default-heading-size-5;
+$heading-size-6: $default-heading-size-6;
+
 $default-button-color: #fff;
 $default-button-padding: 8px 24px;
 $default-button-font-size: 15px;

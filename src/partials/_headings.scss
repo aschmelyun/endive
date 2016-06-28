@@ -1,0 +1,3 @@
+@include make-initial-headings();
+
+@include make-heading(1, 'landing', $color-primary, $heading-size-1, '"Assistant", arial, sans-serif');
