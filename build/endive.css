@@ -63,3 +63,5 @@ table {
   background: #C2185B;
   padding: 8px 24px;
   font-size: 15px; }
+  .button-primary:hover {
+    background: #951246; }

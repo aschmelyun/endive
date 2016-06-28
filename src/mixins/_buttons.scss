@@ -10,5 +10,9 @@
     background: $background;
     padding: $padding;
     font-size: $font-size;
+
+    &:hover {
+      background: darken($background, 10%);
+    }
   }
 }
