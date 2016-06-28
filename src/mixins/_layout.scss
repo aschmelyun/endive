@@ -1,0 +1,33 @@
+@mixin make-scale(
+  $breakpoint
+) {
+  @media screen and(min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin make-wrapper(
+  $title,
+  $margin: $default-wrapper-margin,
+  $s-screen-width: $default-wrapper-width-s-screen,
+  $m-screen-width: $default-wrapper-width-m-screen,
+  $l-screen-width: $default-wrapper-width-l-screen,
+  $xl-screen-width: $default-wrapper-width-xl-screen
+) {
+  .wrapper-#{$title} {
+    margin: $margin;
+    width: $s-screen-width;
+
+    @include make-scale($breakpoint-medium) {
+      width: $m-screen-width;
+    }
+
+    @include make-scale($breakpoint-medium) {
+      width: $l-screen-width;
+    }
+
+    @include make-scale($breakpoint-medium) {
+      width: $xl-screen-width;
+    }
+  }
+}

@@ -36,12 +36,30 @@ table {
 *:after {
   box-sizing: border-box; }
 
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 96%; }
+
+.wrapper-fixed {
+  margin: 0 auto;
+  width: 1024px; }
+  @media screen and (min-width: 768px) {
+    .wrapper-fixed {
+      width: 96%; } }
+  @media screen and (min-width: 768px) {
+    .wrapper-fixed {
+      width: 90%; } }
+  @media screen and (min-width: 768px) {
+    .wrapper-fixed {
+      width: 90%; } }
+
 .button {
   display: inline-block;
   text-decoration: none; }
 
 .button-primary {
   color: #fff;
-  background: #8CC152;
+  background: #C2185B;
   padding: 8px 24px;
   font-size: 15px; }

@@ -27,6 +27,22 @@ $color-primary: #C2185B;
 
 $default-font-family: "Assistant", arial, sans-serif;
 
+$default-breakpoint-small: 480px;
+$default-breakpoint-medium: 768px;
+$default-breakpoint-large: 1024px;
+$default-breakpoint-xlarge: 1200px;
+
+$breakpoint-small:  $default-breakpoint-small;
+$breakpoint-medium: $default-breakpoint-medium;
+$breakpoint-large:  $default-breakpoint-large;
+$breakpoint-xlarge: $default-breakpoint-xlarge;
+
+$default-wrapper-width-s-screen: 96%;
+$default-wrapper-width-m-screen: 96%;
+$default-wrapper-width-l-screen: 90%;
+$default-wrapper-width-xl-screen: 90%;
+$default-wrapper-margin: 0 auto;
+
 $default-button-color: #fff;
 $default-button-padding: 8px 24px;
 $default-button-font-size: 15px;

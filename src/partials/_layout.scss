@@ -1,0 +1,7 @@
+.wrapper {
+  position: relative;
+  margin: $default-wrapper-margin;
+  width: $default-wrapper-width-s-screen;
+}
+
+@include make-wrapper('fixed', 0 auto, 1024px);

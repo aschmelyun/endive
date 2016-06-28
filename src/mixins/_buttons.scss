@@ -1,4 +1,10 @@
-@mixin make-button($title, $background, $color: $default-button-color, $padding: $default-button-padding, $font-size: $default-button-font-size) {
+@mixin make-button(
+  $title,
+  $background,
+  $color: $default-button-color,
+  $padding: $default-button-padding,
+  $font-size: $default-button-font-size
+) {
   .button-#{$title} {
     color: $color;
     background: $background;
