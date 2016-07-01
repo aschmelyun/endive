@@ -22,11 +22,11 @@
       width: $m-screen-width;
     }
 
-    @include make-scale($breakpoint-medium) {
+    @include make-scale($breakpoint-large) {
       width: $l-screen-width;
     }
 
-    @include make-scale($breakpoint-medium) {
+    @include make-scale($breakpoint-xlarge) {
       width: $xl-screen-width;
     }
   }

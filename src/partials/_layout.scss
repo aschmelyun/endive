@@ -3,7 +3,7 @@
   margin: $default-wrapper-margin;
   width: $default-wrapper-width-s-screen;
 }
-@include make-wrapper('fixed', 0 auto, 1024px);
+@include make-wrapper('fixed', 0 auto, 100%, 756px, 960px, 1160px);
 
 .row {
   position: relative;
@@ -15,5 +15,4 @@
     clear: both;
   }
 }
-
 @include make-spaced-rows();

@@ -43,16 +43,16 @@ table {
 
 .wrapper-fixed {
   margin: 0 auto;
-  width: 1024px; }
+  width: 100%; }
   @media screen and (min-width: 768px) {
     .wrapper-fixed {
-      width: 96%; } }
-  @media screen and (min-width: 768px) {
+      width: 756px; } }
+  @media screen and (min-width: 1024px) {
     .wrapper-fixed {
-      width: 90%; } }
-  @media screen and (min-width: 768px) {
+      width: 960px; } }
+  @media screen and (min-width: 1200px) {
     .wrapper-fixed {
-      width: 90%; } }
+      width: 1160px; } }
 
 .row {
   position: relative;
@@ -163,8 +163,11 @@ h6 {
 
 h1.heading-landing {
   color: #C2185B;
-  font-size: 9em;
+  font-size: 6em;
   font-family: "Shrikhand", arial, sans-serif; }
+  @media screen and (min-width: 768px) {
+    h1.heading-landing {
+      font-size: 9em; } }
 
 .text-left {
   text-align: left; }
