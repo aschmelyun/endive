@@ -19,6 +19,7 @@
 
 .fixed {
   position: fixed;
+  z-index: 999;
 
   &.fixed-top {
     width: 100%;
@@ -28,4 +29,11 @@
     width: 100%;
     bottom: 0;
   }
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background: $divider-background;
+  margin: $divider-margin;
 }

@@ -45,3 +45,14 @@
     }
   }
 }
+
+@mixin make-divider(
+  $title,
+  $color,
+  $margin
+) {
+  .divider-#{$title} {
+    background: $color;
+    margin: $margin;
+  }
+}

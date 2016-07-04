@@ -27,6 +27,7 @@ $color-primary: #C2185B;
 
 $default-font-family: "Assistant", arial, sans-serif;
 $font-family-alternative: "Shrikhand", arial, sans-serif;
+$font-color: $color-darkgrey-alt;
 
 $breakpoint-small: 480px;
 $breakpoint-medium: 768px;
@@ -56,3 +57,6 @@ $button-font-size: 15px;
 
 $navigation-item-margin: 0 16px;
 $navigation-link-padding: 12px 0;
+
+$divider-background: $color-lightgrey-alt;
+$divider-margin: 8px 0 12px;
