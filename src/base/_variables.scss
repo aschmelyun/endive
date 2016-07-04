@@ -28,46 +28,31 @@ $color-primary: #C2185B;
 $default-font-family: "Assistant", arial, sans-serif;
 $font-family-alternative: "Shrikhand", arial, sans-serif;
 
-$default-breakpoint-small: 480px;
-$default-breakpoint-medium: 768px;
-$default-breakpoint-large: 1024px;
-$default-breakpoint-xlarge: 1200px;
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+$breakpoint-xlarge: 1200px;
 
-$breakpoint-small:  $default-breakpoint-small;
-$breakpoint-medium: $default-breakpoint-medium;
-$breakpoint-large:  $default-breakpoint-large;
-$breakpoint-xlarge: $default-breakpoint-xlarge;
+$wrapper-width-s-screen: 96%;
+$wrapper-width-m-screen: 96%;
+$wrapper-width-l-screen: 90%;
+$wrapper-width-xl-screen: 90%;
+$wrapper-margin: 0 auto;
 
-$default-wrapper-width-s-screen: 96%;
-$default-wrapper-width-m-screen: 96%;
-$default-wrapper-width-l-screen: 90%;
-$default-wrapper-width-xl-screen: 90%;
-$default-wrapper-margin: 0 auto;
+$heading-size-1: 3em;
+$heading-size-2: 2.5em;
+$heading-size-3: 1.75em;
+$heading-size-4: 1.25em;
+$heading-size-5: 1em;
+$heading-size-6: 0.85em;
 
-$default-heading-size-1: 3em;
-$default-heading-size-2: 2.5em;
-$default-heading-size-3: 1.75em;
-$default-heading-size-4: 1.25em;
-$default-heading-size-5: 1em;
-$default-heading-size-6: 0.85em;
+$row-margin-top: 1em 0 0;
+$row-margin-bottom: 0 0 1em;
+$row-margin-both: 1em 0;
 
-$heading-size-1: $default-heading-size-1;
-$heading-size-2: $default-heading-size-2;
-$heading-size-3: $default-heading-size-3;
-$heading-size-4: $default-heading-size-4;
-$heading-size-5: $default-heading-size-5;
-$heading-size-6: $default-heading-size-6;
+$button-color: #fff;
+$button-padding: 8px 24px;
+$button-font-size: 15px;
 
-$default-row-margin-top: 1em 0 0;
-$default-row-margin-bottom: 0 0 1em;
-$default-row-margin-both: 1em 0;
-
-$default-button-color: #fff;
-$default-button-padding: 8px 24px;
-$default-button-font-size: 15px;
-
-$default-navigation-item-margin: 0 16px;
-$default-navigation-link-padding: 12px 0;
-
-$navigation-item-margin: $default-navigation-item-margin;
-$navigation-link-padding: $default-navigation-link-padding;
+$navigation-item-margin: 0 16px;
+$navigation-link-padding: 12px 0;

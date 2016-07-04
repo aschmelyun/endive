@@ -8,11 +8,11 @@
 
 @mixin make-wrapper(
   $title,
-  $margin: $default-wrapper-margin,
-  $s-screen-width: $default-wrapper-width-s-screen,
-  $m-screen-width: $default-wrapper-width-m-screen,
-  $l-screen-width: $default-wrapper-width-l-screen,
-  $xl-screen-width: $default-wrapper-width-xl-screen
+  $margin: $wrapper-margin,
+  $s-screen-width: $wrapper-width-s-screen,
+  $m-screen-width: $wrapper-width-m-screen,
+  $l-screen-width: $wrapper-width-l-screen,
+  $xl-screen-width: $wrapper-width-xl-screen
 ) {
   .wrapper-#{$title} {
     margin: $margin;
