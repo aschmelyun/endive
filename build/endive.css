@@ -143,6 +143,15 @@ table {
 .row-margin-both-9 {
   margin: 9em 0; }
 
+.fixed {
+  position: fixed; }
+  .fixed.fixed-top {
+    width: 100%;
+    top: 0; }
+  .fixed.fixed-bottom {
+    width: 100%;
+    bottom: 0; }
+
 h1 {
   font-size: 3em; }
 
@@ -168,6 +177,37 @@ h1.heading-landing {
   @media screen and (min-width: 768px) {
     h1.heading-landing {
       font-size: 9em; } }
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .navigation ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 16px; }
+    .navigation ul li a {
+      display: block;
+      text-decoration: none;
+      padding: 12px 0; }
+
+.navigation-primary {
+  background: #C2185B; }
+  .navigation-primary ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .navigation-primary ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 0 16px; }
+      .navigation-primary ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 12px 0;
+        color: #fff; }
+        .navigation-primary ul li a:hover {
+          text-decoration: none; }
 
 .text-left {
   text-align: left; }

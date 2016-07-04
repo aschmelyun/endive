@@ -1,0 +1,21 @@
+.navigation {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      list-style: none;
+      margin: $navigation-item-margin;
+
+      a {
+        display: block;
+        text-decoration: none;
+        padding: $navigation-link-padding;
+      }
+    }
+  }
+}
+@include make-navigation('primary', $color-primary, #fff);

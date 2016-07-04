@@ -65,3 +65,9 @@ $default-row-margin-both: 1em 0;
 $default-button-color: #fff;
 $default-button-padding: 8px 24px;
 $default-button-font-size: 15px;
+
+$default-navigation-item-margin: 0 16px;
+$default-navigation-link-padding: 12px 0;
+
+$navigation-item-margin: $default-navigation-item-margin;
+$navigation-link-padding: $default-navigation-link-padding;

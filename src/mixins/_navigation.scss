@@ -1,0 +1,36 @@
+@mixin make-navigation(
+  $title,
+  $background: none,
+  $color: inherit,
+  $item-margin: $navigation-item-margin,
+  $link-padding: $navigation-link-padding,
+  $text-decoration: none,
+  $text-decoration-hover: none
+) {
+  .navigation-#{$title} {
+    background: $background;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: inline-block;
+        list-style: none;
+        margin: $item-margin;
+
+        a {
+          display: block;
+          text-decoration: $text-decoration;
+          padding: $link-padding;
+          color: $color;
+
+          &:hover {
+            text-decoration: $text-decoration-hover;
+          }
+        }
+      }
+    }
+  }
+}
