@@ -62,87 +62,60 @@ table {
     content: "";
     display: table;
     clear: both; }
-
-.row-margin-top-1 {
-  margin-top: 1em; }
-
-.row-margin-bottom-1 {
-  margin-bottom: 1em; }
-
-.row-margin-both-1 {
-  margin: 1em 0; }
-
-.row-margin-top-2 {
-  margin-top: 2em; }
-
-.row-margin-bottom-2 {
-  margin-bottom: 2em; }
-
-.row-margin-both-2 {
-  margin: 2em 0; }
-
-.row-margin-top-3 {
-  margin-top: 3em; }
-
-.row-margin-bottom-3 {
-  margin-bottom: 3em; }
-
-.row-margin-both-3 {
-  margin: 3em 0; }
-
-.row-margin-top-4 {
-  margin-top: 4em; }
-
-.row-margin-bottom-4 {
-  margin-bottom: 4em; }
-
-.row-margin-both-4 {
-  margin: 4em 0; }
-
-.row-margin-top-5 {
-  margin-top: 5em; }
-
-.row-margin-bottom-5 {
-  margin-bottom: 5em; }
-
-.row-margin-both-5 {
-  margin: 5em 0; }
-
-.row-margin-top-6 {
-  margin-top: 6em; }
-
-.row-margin-bottom-6 {
-  margin-bottom: 6em; }
-
-.row-margin-both-6 {
-  margin: 6em 0; }
-
-.row-margin-top-7 {
-  margin-top: 7em; }
-
-.row-margin-bottom-7 {
-  margin-bottom: 7em; }
-
-.row-margin-both-7 {
-  margin: 7em 0; }
-
-.row-margin-top-8 {
-  margin-top: 8em; }
-
-.row-margin-bottom-8 {
-  margin-bottom: 8em; }
-
-.row-margin-both-8 {
-  margin: 8em 0; }
-
-.row-margin-top-9 {
-  margin-top: 9em; }
-
-.row-margin-bottom-9 {
-  margin-bottom: 9em; }
-
-.row-margin-both-9 {
-  margin: 9em 0; }
+  .row.row-margin-top-1 {
+    margin-top: 1em; }
+  .row.row-margin-bottom-1 {
+    margin-bottom: 1em; }
+  .row.row-margin-both-1 {
+    margin: 1em 0; }
+  .row.row-margin-top-2 {
+    margin-top: 2em; }
+  .row.row-margin-bottom-2 {
+    margin-bottom: 2em; }
+  .row.row-margin-both-2 {
+    margin: 2em 0; }
+  .row.row-margin-top-3 {
+    margin-top: 3em; }
+  .row.row-margin-bottom-3 {
+    margin-bottom: 3em; }
+  .row.row-margin-both-3 {
+    margin: 3em 0; }
+  .row.row-margin-top-4 {
+    margin-top: 4em; }
+  .row.row-margin-bottom-4 {
+    margin-bottom: 4em; }
+  .row.row-margin-both-4 {
+    margin: 4em 0; }
+  .row.row-margin-top-5 {
+    margin-top: 5em; }
+  .row.row-margin-bottom-5 {
+    margin-bottom: 5em; }
+  .row.row-margin-both-5 {
+    margin: 5em 0; }
+  .row.row-margin-top-6 {
+    margin-top: 6em; }
+  .row.row-margin-bottom-6 {
+    margin-bottom: 6em; }
+  .row.row-margin-both-6 {
+    margin: 6em 0; }
+  .row.row-margin-top-7 {
+    margin-top: 7em; }
+  .row.row-margin-bottom-7 {
+    margin-bottom: 7em; }
+  .row.row-margin-both-7 {
+    margin: 7em 0; }
+  .row.row-margin-top-8 {
+    margin-top: 8em; }
+  .row.row-margin-bottom-8 {
+    margin-bottom: 8em; }
+  .row.row-margin-both-8 {
+    margin: 8em 0; }
+  .row.row-margin-top-9 {
+    margin-top: 9em; }
+  .row.row-margin-bottom-9 {
+    margin-bottom: 9em; }
+  .row.row-margin-both-9 {
+    margin: 9em 0; }
 
 .fixed {
   position: fixed;
@@ -153,6 +126,76 @@ table {
   .fixed.fixed-bottom {
     width: 100%;
     bottom: 0; }
+
+.col {
+  float: left;
+  min-height: 32px;
+  margin-left: 1%; }
+  .col:nth-child(even) {
+    background: #E6E9ED; }
+  .col:nth-child(odd) {
+    background: #F5F7FA; }
+  .col:first-child {
+    margin-left: 0; }
+  .col.col-1 {
+    width: 7.41667%; }
+  .col.col-2 {
+    width: 15.83333%; }
+  .col.col-3 {
+    width: 24.25%; }
+  .col.col-4 {
+    width: 32.66667%; }
+  .col.col-5 {
+    width: 41.08333%; }
+  .col.col-6 {
+    width: 49.5%; }
+  .col.col-7 {
+    width: 57.91667%; }
+  .col.col-8 {
+    width: 66.33333%; }
+  .col.col-9 {
+    width: 74.75%; }
+  .col.col-10 {
+    width: 83.16667%; }
+  .col.col-11 {
+    width: 91.58333%; }
+  .col.col-12 {
+    width: 100%; }
+
+.no-gutter .col {
+  float: left;
+  min-height: 32px;
+  margin-left: 0; }
+  .no-gutter .col:nth-child(even) {
+    background: #E6E9ED; }
+  .no-gutter .col:nth-child(odd) {
+    background: #F5F7FA; }
+  .no-gutter .col:first-child {
+    margin-left: 0; }
+  .no-gutter .col.col-1 {
+    width: 8.33333%; }
+  .no-gutter .col.col-2 {
+    width: 16.66667%; }
+  .no-gutter .col.col-3 {
+    width: 25%; }
+  .no-gutter .col.col-4 {
+    width: 33.33333%; }
+  .no-gutter .col.col-5 {
+    width: 41.66667%; }
+  .no-gutter .col.col-6 {
+    width: 50%; }
+  .no-gutter .col.col-7 {
+    width: 58.33333%; }
+  .no-gutter .col.col-8 {
+    width: 66.66667%; }
+  .no-gutter .col.col-9 {
+    width: 75%; }
+  .no-gutter .col.col-10 {
+    width: 83.33333%; }
+  .no-gutter .col.col-11 {
+    width: 91.66667%; }
+  .no-gutter .col.col-12 {
+    width: 100%; }
 
 .divider {
   height: 2px;

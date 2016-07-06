@@ -14,8 +14,9 @@
     display: table;
     clear: both;
   }
+  @include make-spaced-rows();
+
 }
-@include make-spaced-rows();
 
 .fixed {
   position: fixed;
@@ -28,6 +29,45 @@
   &.fixed-bottom {
     width: 100%;
     bottom: 0;
+  }
+}
+
+.col {
+  float: left;
+  min-height: 32px;
+  margin-left: (1% * $column-spacing-percentage);
+
+  &:nth-child(even) {
+    background: $color-lightgrey-alt;
+  }
+  &:nth-child(odd) {
+    background: $color-lightgrey;
+  }
+  &:first-child {
+    margin-left: 0;
+  }
+
+  @include make-columns(12);
+}
+
+.no-gutter {
+
+  .col {
+    float: left;
+    min-height: 32px;
+    margin-left: 0;
+
+    &:nth-child(even) {
+      background: $color-lightgrey-alt;
+    }
+    &:nth-child(odd) {
+      background: $color-lightgrey;
+    }
+    &:first-child {
+      margin-left: 0;
+    }
+
+    @include make-columns(12, false);
   }
 }
 
