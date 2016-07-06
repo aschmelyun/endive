@@ -130,7 +130,7 @@ table {
 .col {
   float: left;
   min-height: 32px;
-  margin-left: 1%; }
+  margin-left: 3%; }
   .col:nth-child(even) {
     background: #E6E9ED; }
   .col:nth-child(odd) {
@@ -138,27 +138,27 @@ table {
   .col:first-child {
     margin-left: 0; }
   .col.col-1 {
-    width: 7.41667%; }
+    width: 5.58333%; }
   .col.col-2 {
-    width: 15.83333%; }
+    width: 14.16667%; }
   .col.col-3 {
-    width: 24.25%; }
+    width: 22.75%; }
   .col.col-4 {
-    width: 32.66667%; }
+    width: 31.33333%; }
   .col.col-5 {
-    width: 41.08333%; }
+    width: 39.91667%; }
   .col.col-6 {
-    width: 49.5%; }
+    width: 48.5%; }
   .col.col-7 {
-    width: 57.91667%; }
+    width: 57.08333%; }
   .col.col-8 {
-    width: 66.33333%; }
+    width: 65.66667%; }
   .col.col-9 {
-    width: 74.75%; }
+    width: 74.25%; }
   .col.col-10 {
-    width: 83.16667%; }
+    width: 82.83333%; }
   .col.col-11 {
-    width: 91.58333%; }
+    width: 91.41667%; }
   .col.col-12 {
     width: 100%; }
 
