@@ -35,7 +35,11 @@
 .col {
   float: left;
   min-height: 32px;
-  margin-left: (1% * $column-spacing-percentage);
+  margin-left: 0;
+
+  @include make-scale($breakpoint-medium) {
+    margin-left: (1% * $column-spacing-percentage);
+  }
 
   &:nth-child(even) {
     background: $color-lightgrey-alt;

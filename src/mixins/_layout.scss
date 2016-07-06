@@ -62,12 +62,20 @@
 
       @if $gutter {
         &.col-#{$i} {
-          width: percentage($i / $amount) - ((($denom - 1) * $column-spacing-percentage) / $denom);
+          width: 100%;
+
+          @include make-scale($breakpoint-medium) {
+            width: percentage($i / $amount) - ((($denom - 1) * $column-spacing-percentage) / $denom);
+          }
         }
       }
       @else {
         &.col-#{$i} {
-          width: percentage($i / $amount);
+          width: 100%;
+
+          @include make-scale($breakpoint-medium) {
+            width: percentage($i / $amount);
+          }
         }
       }
     }

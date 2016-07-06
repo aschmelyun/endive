@@ -130,7 +130,10 @@ table {
 .col {
   float: left;
   min-height: 32px;
-  margin-left: 3%; }
+  margin-left: 0; }
+  @media screen and (min-width: 768px) {
+    .col {
+      margin-left: 3%; } }
   .col:nth-child(even) {
     background: #E6E9ED; }
   .col:nth-child(odd) {
@@ -138,27 +141,60 @@ table {
   .col:first-child {
     margin-left: 0; }
   .col.col-1 {
-    width: 5.58333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-1 {
+        width: 5.58333%; } }
   .col.col-2 {
-    width: 14.16667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-2 {
+        width: 14.16667%; } }
   .col.col-3 {
-    width: 22.75%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-3 {
+        width: 22.75%; } }
   .col.col-4 {
-    width: 31.33333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-4 {
+        width: 31.33333%; } }
   .col.col-5 {
-    width: 39.91667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-5 {
+        width: 39.91667%; } }
   .col.col-6 {
-    width: 48.5%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-6 {
+        width: 48.5%; } }
   .col.col-7 {
-    width: 57.08333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-7 {
+        width: 57.08333%; } }
   .col.col-8 {
-    width: 65.66667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-8 {
+        width: 65.66667%; } }
   .col.col-9 {
-    width: 74.25%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-9 {
+        width: 74.25%; } }
   .col.col-10 {
-    width: 82.83333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-10 {
+        width: 82.83333%; } }
   .col.col-11 {
-    width: 91.41667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .col.col-11 {
+        width: 91.41667%; } }
   .col.col-12 {
     width: 100%; }
 
@@ -173,27 +209,60 @@ table {
   .no-gutter .col:first-child {
     margin-left: 0; }
   .no-gutter .col.col-1 {
-    width: 8.33333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-1 {
+        width: 8.33333%; } }
   .no-gutter .col.col-2 {
-    width: 16.66667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-2 {
+        width: 16.66667%; } }
   .no-gutter .col.col-3 {
-    width: 25%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-3 {
+        width: 25%; } }
   .no-gutter .col.col-4 {
-    width: 33.33333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-4 {
+        width: 33.33333%; } }
   .no-gutter .col.col-5 {
-    width: 41.66667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-5 {
+        width: 41.66667%; } }
   .no-gutter .col.col-6 {
-    width: 50%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-6 {
+        width: 50%; } }
   .no-gutter .col.col-7 {
-    width: 58.33333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-7 {
+        width: 58.33333%; } }
   .no-gutter .col.col-8 {
-    width: 66.66667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-8 {
+        width: 66.66667%; } }
   .no-gutter .col.col-9 {
-    width: 75%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-9 {
+        width: 75%; } }
   .no-gutter .col.col-10 {
-    width: 83.33333%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-10 {
+        width: 83.33333%; } }
   .no-gutter .col.col-11 {
-    width: 91.66667%; }
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .no-gutter .col.col-11 {
+        width: 91.66667%; } }
   .no-gutter .col.col-12 {
     width: 100%; }
 
