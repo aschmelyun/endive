@@ -1,3 +1,5 @@
 @include make-initial-headings();
 
 @include make-heading(1, 'landing', $color-primary, 9em, $font-family-alternative);
+@include make-heading(2, 'primary', $color-primary, $heading-size-2);
+@include make-heading(3, 'secondary', $color-secondary, $heading-size-3);

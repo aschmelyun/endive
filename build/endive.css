@@ -129,8 +129,10 @@ table {
 
 .col {
   float: left;
-  min-height: 32px;
+  padding: 12px;
   margin-left: 0; }
+  .col.no-padding {
+    padding: 0; }
   @media screen and (min-width: 768px) {
     .col {
       margin-left: 3%; } }
@@ -273,22 +275,28 @@ table {
   margin: 8px 0 12px; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+  margin: 0.25em 0 0.5em; }
 
 h2 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  margin: 0.25em 0 0.5em; }
 
 h3 {
-  font-size: 1.75em; }
+  font-size: 1.75em;
+  margin: 0.25em 0 0.5em; }
 
 h4 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin: 0.25em 0 0.5em; }
 
 h5 {
-  font-size: 1em; }
+  font-size: 1em;
+  margin: 0.25em 0 0.5em; }
 
 h6 {
-  font-size: 0.85em; }
+  font-size: 0.85em;
+  margin: 0.25em 0 0.5em; }
 
 h1.heading-landing {
   color: #C2185B;
@@ -297,6 +305,22 @@ h1.heading-landing {
   @media screen and (min-width: 768px) {
     h1.heading-landing {
       font-size: 9em; } }
+
+h2.heading-primary {
+  color: #C2185B;
+  font-size: 1.66667em;
+  font-family: "Assistant", arial, sans-serif; }
+  @media screen and (min-width: 768px) {
+    h2.heading-primary {
+      font-size: 2.5em; } }
+
+h3.heading-secondary {
+  color: #AAB2BD;
+  font-size: 1.16667em;
+  font-family: "Assistant", arial, sans-serif; }
+  @media screen and (min-width: 768px) {
+    h3.heading-secondary {
+      font-size: 1.75em; } }
 
 .navigation ul {
   list-style: none;
@@ -338,6 +362,11 @@ h1.heading-landing {
 .text-right {
   text-align: right; }
 
+b,
+strong,
+.text-bold {
+  font-weight: bold; }
+
 .button {
   display: inline-block;
   text-decoration: none; }
@@ -349,3 +378,11 @@ h1.heading-landing {
   font-size: 15px; }
   .button-primary:hover {
     background: #951246; }
+
+.button-secondary {
+  color: #fff;
+  background: #AAB2BD;
+  padding: 8px 24px;
+  font-size: 15px; }
+  .button-secondary:hover {
+    background: #8d98a7; }

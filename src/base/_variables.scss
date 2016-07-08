@@ -24,6 +24,7 @@ $color-darkgrey:        #656D78;
 $color-darkgrey-alt:    #434A54;
 
 $color-primary: #C2185B;
+$color-secondary: $color-mediumgrey-alt;
 
 $default-font-family: "Assistant", arial, sans-serif;
 $font-family-alternative: "Shrikhand", arial, sans-serif;
@@ -46,12 +47,14 @@ $heading-size-3: 1.75em;
 $heading-size-4: 1.25em;
 $heading-size-5: 1em;
 $heading-size-6: 0.85em;
+$heading-margin: 0.25em 0 0.5em;
 
 $row-margin-top: 1em 0 0;
 $row-margin-bottom: 0 0 1em;
 $row-margin-both: 1em 0;
 
 $column-spacing-percentage: 3;
+$column-padding: 12px;
 
 $button-color: #fff;
 $button-padding: 8px 24px;

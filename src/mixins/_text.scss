@@ -9,3 +9,11 @@
     text-align: right;
   }
 }
+
+@mixin make-text-styles() {
+  b,
+  strong,
+  .text-bold {
+    font-weight: bold;
+  }
+}

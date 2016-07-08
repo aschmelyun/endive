@@ -34,8 +34,12 @@
 
 .col {
   float: left;
-  min-height: 32px;
+  padding: $column-padding;
   margin-left: 0;
+
+  &.no-padding {
+    padding: 0;
+  }
 
   @include make-scale($breakpoint-medium) {
     margin-left: (1% * $column-spacing-percentage);
