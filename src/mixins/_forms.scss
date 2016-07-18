@@ -8,9 +8,37 @@
   $input-padding: $input-padding,
   $border: $input-border,
   $border-radius: $input-border-radius,
+  $border-focus: $input-border-focus,
   $row-margin: $input-row-margin
 ) {
   &.form-#{$title} {
+    background: $background;
 
+    label {
+      display: block;
+      color: $label-color;
+      font-size: $label-size;
+      margin: $input-label-margin;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      background: #fff;
+      font-size: $text-size;
+      color: $text-color;
+      border: $border;
+      padding: $input-padding;
+      -webkit-border-radius: $border-radius;
+      -moz-border-radius: $border-radius;
+      border-radius: $border-radius;
+
+      &:focus {
+        outline: 0;
+        outline: none;
+        border: $border-focus;
+      }
+    }
   }
 }
