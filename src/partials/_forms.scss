@@ -1,0 +1,34 @@
+form {
+  background: $input-background;
+
+  .col {
+    padding: 12px 0;
+  }
+
+  label {
+    display: block;
+    color: $input-label-color;
+    font-size: $input-label-font-size;
+    margin: $input-label-margin;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    background: #fff;
+    font-size: $input-font-size;
+    color: $input-color;
+    border: $input-border;
+    padding: $input-padding;
+    -webkit-border-radius: $input-border-radius;
+    -moz-border-radius: $input-border-radius;
+    border-radius: $input-border-radius;
+
+    &:focus {
+      outline: 0;
+      outline: none;
+      border: $input-border-focus;
+    }
+  }
+}

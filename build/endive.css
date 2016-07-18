@@ -116,6 +116,10 @@ table {
     margin-bottom: 9em; }
   .row.row-margin-both-9 {
     margin: 9em 0; }
+  .row.row-striped-columns .col:nth-child(even) {
+    background: #E6E9ED; }
+  .row.row-striped-columns .col:nth-child(odd) {
+    background: #F5F7FA; }
 
 .fixed {
   position: fixed;
@@ -136,10 +140,6 @@ table {
   @media screen and (min-width: 768px) {
     .col {
       margin-left: 3%; } }
-  .col:nth-child(even) {
-    background: #E6E9ED; }
-  .col:nth-child(odd) {
-    background: #F5F7FA; }
   .col:first-child {
     margin-left: 0; }
   .col.col-1 {
@@ -204,10 +204,6 @@ table {
   float: left;
   min-height: 32px;
   margin-left: 0; }
-  .no-gutter .col:nth-child(even) {
-    background: #E6E9ED; }
-  .no-gutter .col:nth-child(odd) {
-    background: #F5F7FA; }
   .no-gutter .col:first-child {
     margin-left: 0; }
   .no-gutter .col.col-1 {
@@ -274,29 +270,57 @@ table {
   background: #E6E9ED;
   margin: 8px 0 12px; }
 
+form {
+  background: none; }
+  form .col {
+    padding: 12px 0; }
+  form label {
+    display: block;
+    color: #434A54;
+    font-size: 0.85em;
+    margin: 0 0 4px; }
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    background: #fff;
+    font-size: 1em;
+    color: #434A54;
+    border: 1px solid #CCD1D9;
+    padding: 8px 12px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+    form input:focus,
+    form select:focus,
+    form textarea:focus {
+      outline: 0;
+      outline: none;
+      border: 1px solid #C2185B; }
+
 h1 {
   font-size: 3em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h2 {
   font-size: 2.5em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h3 {
   font-size: 1.75em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h4 {
   font-size: 1.25em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h5 {
   font-size: 1em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h6 {
   font-size: 0.85em;
-  margin: 0.25em 0 0.5em; }
+  margin: 8px 0 12px; }
 
 h1.heading-landing {
   color: #C2185B;
