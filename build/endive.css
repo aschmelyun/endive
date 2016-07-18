@@ -297,6 +297,18 @@ form {
       outline: 0;
       outline: none;
       border: 1px solid #C2185B; }
+    form input[type="submit"],
+    form select[type="submit"],
+    form textarea[type="submit"] {
+      background: #C2185B;
+      color: #fff;
+      font-size: 1em;
+      border: none;
+      padding: 12px 0; }
+      form input[type="submit"]:hover,
+      form select[type="submit"]:hover,
+      form textarea[type="submit"]:hover {
+        cursor: pointer; }
 
 h1 {
   font-size: 3em;

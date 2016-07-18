@@ -30,5 +30,17 @@ form {
       outline: none;
       border: $input-border-focus;
     }
+
+    &[type="submit"] {
+      background: $input-submit-background;
+      color: $input-submit-color;
+      font-size: $input-submit-font-size;
+      border: $input-submit-border;
+      padding: $input-submit-padding;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
