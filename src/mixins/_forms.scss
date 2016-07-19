@@ -9,10 +9,13 @@
   $border: $input-border,
   $border-radius: $input-border-radius,
   $border-focus: $input-border-focus,
+  $form-width: 100%,
   $row-margin: $input-row-margin
 ) {
-  &.form-#{$title} {
+  .form-#{$title} {
     background: $background;
+    width: $form-width;
+    margin: 0 auto;
 
     label {
       display: block;
