@@ -1,6 +1,8 @@
 @mixin make-form(
   $title,
   $background: $input-background,
+  $padding: $input-padding,
+  $form-width: 100%,
   $label-color: $input-label-color,
   $text-color: $input-color,
   $label-size: $input-label-font-size,
@@ -9,11 +11,11 @@
   $border: $input-border,
   $border-radius: $input-border-radius,
   $border-focus: $input-border-focus,
-  $form-width: 100%,
   $row-margin: $input-row-margin
 ) {
   .form-#{$title} {
     background: $background;
+    padding: $padding;
     width: $form-width;
     margin: 0 auto;
 

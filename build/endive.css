@@ -272,8 +272,10 @@ table {
 
 form {
   background: none; }
-  form .col {
+  form .row {
     padding: 12px 0; }
+  form .col {
+    padding: 0; }
   form label {
     display: block;
     color: #434A54;
@@ -309,6 +311,35 @@ form {
       form select[type="submit"]:hover,
       form textarea[type="submit"]:hover {
         cursor: pointer; }
+
+.form-alt {
+  background: #E6E9ED;
+  padding: 8px 16px;
+  width: 50%;
+  margin: 0 auto; }
+  .form-alt label {
+    display: block;
+    color: #434A54;
+    font-size: 0.85em;
+    margin: 0 0 4px; }
+  .form-alt input,
+  .form-alt select,
+  .form-alt textarea {
+    width: 100%;
+    background: #fff;
+    font-size: 1em;
+    color: #434A54;
+    border: 1px solid #CCD1D9;
+    padding: 8px 12px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+    .form-alt input:focus,
+    .form-alt select:focus,
+    .form-alt textarea:focus {
+      outline: 0;
+      outline: none;
+      border: 1px solid #C2185B; }
 
 h1 {
   font-size: 3em;

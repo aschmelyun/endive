@@ -1,8 +1,12 @@
 form {
   background: $input-background;
 
-  .col {
+  .row {
     padding: 12px 0;
+  }
+
+  .col {
+    padding: 0;
   }
 
   label {
@@ -45,4 +49,4 @@ form {
   }
 }
 
-@include make-form('alt');
+@include make-form('alt', $color-lightgrey-alt, 8px 16px, 50%);
