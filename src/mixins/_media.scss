@@ -1,0 +1,17 @@
+@mixin make-image (
+  $title,
+  $width,
+  $height,
+  $border-radius: 0,
+  $border: none,
+  $padding: 0
+) {
+  .img-#{$title} {
+    max-width: $width;
+    max-height: $height;
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    border: $border;
+    padding: $padding;
+  }
+}

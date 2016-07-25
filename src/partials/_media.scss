@@ -1,0 +1,10 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@include make-image('thumbnail', $image-thumbnail-width, $image-thumbnail-height);
+@include make-image('medium', $image-medium-width, $image-medium-height);
+@include make-image('large', $image-large-width, $image-large-height);
+@include make-image('profile', $image-thumbnail-width, $image-thumbnail-height, 50%);
+@include make-image('bordered', 100%, 100%, 5px, 1px solid $color-primary, 3px);
