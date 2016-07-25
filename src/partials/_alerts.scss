@@ -1,0 +1,11 @@
+.alert {
+  width: 100%;
+  background: none;
+  padding: $alert-padding;
+  margin: $alert-margin;
+  color: $alert-color;
+  border: $alert-border;
+  font-size: $alert-font-size;
+}
+
+@include make-alert('primary', $color-primary, 1px solid $color-primary);

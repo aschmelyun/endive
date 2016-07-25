@@ -453,3 +453,19 @@ strong,
   font-size: 15px; }
   .button-secondary:hover {
     background: #8d98a7; }
+
+.alert {
+  width: 100%;
+  background: none;
+  padding: 12px 16px;
+  margin: 8px 0 16px;
+  color: #434A54;
+  border: 1px solid #CCD1D9;
+  font-size: 0.85em; }
+
+.alert-primary {
+  background: none;
+  padding: 12px 16px;
+  margin: 8px 0 16px;
+  color: #C2185B;
+  border: 1px solid #C2185B; }

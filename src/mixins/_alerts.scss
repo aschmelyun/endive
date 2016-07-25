@@ -1,0 +1,16 @@
+@mixin make-alert(
+  $title,
+  $color: $alert-color,
+  $border: $alert-border,
+  $padding: $alert-padding,
+  $margin: $alert-margin,
+  $background: none
+) {
+  .alert-#{$title} {
+    background: $background;
+    padding: $padding;
+    margin: $margin;
+    color: $color;
+    border: $border;
+  }
+}
