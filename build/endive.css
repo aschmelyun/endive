@@ -434,6 +434,15 @@ strong,
 .text-bold {
   font-weight: bold; }
 
+.note {
+  display: inline-block;
+  font-size: 1em;
+  margin: 0 0 8px; }
+
+.note-underlined {
+  padding: 0 0 2px;
+  border-bottom: 1px solid #AAB2BD; }
+
 .button {
   display: inline-block;
   text-decoration: none; }

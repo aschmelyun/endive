@@ -17,3 +17,15 @@
     font-weight: bold;
   }
 }
+
+@mixin make-notes() {
+  .note {
+    display: inline-block;
+    font-size: $note-font-size;
+    margin: $note-margin;
+  }
+  .note-underlined {
+    padding: $note-ul-padding;
+    border-bottom: $note-ul-border;
+  }
+}
