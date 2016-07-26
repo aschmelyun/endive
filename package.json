@@ -11,12 +11,15 @@
     "url": "git://github.com/aschmelyun/endive.git"
   },
   "keywords": [
+    "css",
     "scss",
     "framework",
     "endive",
     "aschmelyun"
   ],
+  "homepage": "http://endive.aschmelyun.com",
   "author": "aschmelyun",
+  "style": "build/endive.css",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/aschmelyun/endive/issues"
@@ -29,5 +32,10 @@
     "gulp-uglify": "~1.5.4",
     "gulp-sass": "~2.3.2",
     "gulp-watch": "~4.3.8"
-  }
+  },
+  "files": [
+    "build",
+    "src",
+    "gulpfile.js"
+  ]
 }
