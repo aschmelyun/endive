@@ -2,6 +2,8 @@
   $title,
   $background: none,
   $color: inherit,
+  $background-hover: none,
+  $color-hover: inherit,
   $item-margin: $navigation-item-margin,
   $link-padding: $navigation-link-padding,
   $text-decoration: none,
@@ -27,9 +29,36 @@
           color: $color;
 
           &:hover {
+            color: $color-hover;
+            background: $background-hover;
             text-decoration: $text-decoration-hover;
           }
         }
+      }
+    }
+  }
+}
+
+@mixin make-list(
+  $title,
+  $style: initial,
+  $margin: $list-margin,
+  $line-height: $list-line-height,
+  $color: inherit,
+  $link-color: inherit,
+  $link-decoration: underline
+) {
+  .list-#{$title} {
+    list-style: $style;
+    margin: $margin;
+    color: $color;
+
+    li {
+      line-height: $line-height;
+
+      a {
+        color: $link-color;
+        text-decoration: $link-decoration;
       }
     }
   }

@@ -263,6 +263,56 @@
     <div class="row row-margin-top-4">
         <h2>Navigation</h2>
         <div class="divider"></div>
+        <p class="alert">Navigation bars (like the one at the bottom of this site) are created with <b>make-navigation</b>. Here's an another one created using <b>@include make-navigation('example', $color-secondary, #fff, darken($color-secondary, 5%), #fff)</b></p>
+        <div class="row">
+            <nav class="navigation navigation-example">
+                <ul>
+                    <li><a href="#">Example</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Navigation</a></li>
+                    <li><a href="#">Bar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row row-margin-top-2">
+            <h3>But what about vertical navigation?</h3>
+        </div>
+        <div class="row">
+            <p class="alert">Just add <b>.navigation-vertical</b> to the nav element. It's width 100% so it'll expand to fit its container</p>
+            <div class="col col-3">
+                <nav class="navigation navigation-example navigation-vertical">
+                    <ul>
+                        <li><a href="#">Here's Another</a></li>
+                        <li><a href="#">Example Menu</a></li>
+                        <li><a href="#">Except That This One</a></li>
+                        <li><a href="#">Is Vertical</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row row-margin-top-2">
+            <h3>Plain lists and navigation</h3>
+        </div>
+        <div class="row">
+            <div class="col col-6">
+                <ul class="list">
+                    <li>This uses ul.list</li>
+                    <li>Another list item</li>
+                    <li>These are unorganized</li>
+                    <li><a href="#">Check this out</a></li>
+                    <li>That's it</li>
+                </ul>
+            </div>
+            <div class="col col-6">
+                <ol class="list">
+                    <li>This uses ol.list</li>
+                    <li>Oh look an item</li>
+                    <li>These are organized</li>
+                    <li><a href="#">Nice and neat</a></li>
+                    <li>That's better</li>
+                </ol>
+            </div>
+        </div>
     </div>
     <div class="row row-margin-top-4">
         <h2>Text</h2>

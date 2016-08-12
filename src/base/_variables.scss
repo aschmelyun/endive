@@ -60,8 +60,8 @@ $button-color: #fff;
 $button-padding: 8px 24px;
 $button-font-size: 15px;
 
-$navigation-item-margin: 0 16px;
-$navigation-link-padding: 12px 0;
+$navigation-item-margin: 0;
+$navigation-link-padding: 12px 16px;
 
 $divider-background: $color-lightgrey-alt;
 $divider-margin: 8px 0 12px;
@@ -100,3 +100,6 @@ $note-font-size: 1em;
 $note-margin: 0 0 8px;
 $note-ul-padding: 0 0 2px;
 $note-ul-border: 1px solid $color-mediumgrey-alt;
+
+$list-line-height: 1.4em;
+$list-margin: 0 0 1em 2em;

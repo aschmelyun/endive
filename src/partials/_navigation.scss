@@ -18,4 +18,39 @@
     }
   }
 }
-@include make-navigation('primary', $color-primary, #fff);
+.navigation-vertical {
+  width: 100%;
+
+  ul {
+    width: 100%;
+
+    li {
+      display: block;
+      width: 100%;
+
+      a {
+        width: 100%;
+      }
+    }
+  }
+}
+@include make-navigation('primary', $color-primary, #fff, darken($color-primary, 5%), #fff);
+@include make-navigation('example', $color-secondary, #fff, darken($color-secondary, 5%), #fff);
+
+ul.list {
+  list-style: disc;
+  margin: $list-margin;
+
+  li {
+    line-height: $list-line-height;
+  }
+}
+
+ol.list {
+  list-style: decimal;
+  margin: $list-margin;
+
+  li {
+    line-height: $list-line-height;
+  }
+}

@@ -396,11 +396,21 @@ h3.heading-secondary {
   .navigation ul li {
     display: inline-block;
     list-style: none;
-    margin: 0 16px; }
+    margin: 0; }
     .navigation ul li a {
       display: block;
       text-decoration: none;
-      padding: 12px 0; }
+      padding: 12px 16px; }
+
+.navigation-vertical {
+  width: 100%; }
+  .navigation-vertical ul {
+    width: 100%; }
+    .navigation-vertical ul li {
+      display: block;
+      width: 100%; }
+      .navigation-vertical ul li a {
+        width: 100%; }
 
 .navigation-primary {
   background: #C2185B; }
@@ -411,14 +421,48 @@ h3.heading-secondary {
     .navigation-primary ul li {
       display: inline-block;
       list-style: none;
-      margin: 0 16px; }
+      margin: 0; }
       .navigation-primary ul li a {
         display: block;
         text-decoration: none;
-        padding: 12px 0;
+        padding: 12px 16px;
         color: #fff; }
         .navigation-primary ul li a:hover {
+          color: #fff;
+          background: #ab1550;
           text-decoration: none; }
+
+.navigation-example {
+  background: #AAB2BD; }
+  .navigation-example ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .navigation-example ul li {
+      display: inline-block;
+      list-style: none;
+      margin: 0; }
+      .navigation-example ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 12px 16px;
+        color: #fff; }
+        .navigation-example ul li a:hover {
+          color: #fff;
+          background: #9ca5b2;
+          text-decoration: none; }
+
+ul.list {
+  list-style: disc;
+  margin: 0 0 1em 2em; }
+  ul.list li {
+    line-height: 1.4em; }
+
+ol.list {
+  list-style: decimal;
+  margin: 0 0 1em 2em; }
+  ol.list li {
+    line-height: 1.4em; }
 
 .text-left {
   text-align: left; }
