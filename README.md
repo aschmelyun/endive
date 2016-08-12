@@ -15,12 +15,12 @@ Endive uses mixins to build a lot of the default classes included in the framewo
 
     @include make-button('primary', $color-primary);
 
-This yeilds a button with the additional class .button-primary and a background with the color stored in the $color-primary variable. The full mixin parameters are:
+This yields a button with the additional class .button-primary and a background with the color stored in the $color-primary variable. The full mixin parameters are:
 
     @mixin make-button(
         $title,
         $background,
-        $color: $buton-color,
+        $color: $button-color,
         $padding: $button-padding,
         $font-size: $button-font-size
     ) {}
