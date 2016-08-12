@@ -29,8 +29,12 @@ As you can see, the $title and $background attributes are the only ones required
 
 For responsive development, this framework is built mobile-first. All attributes start off as mobile-facing and as the screen size is scaled up, are changed accordingly. Utilize the following mixin to adjust styles depending on screen size:
 
-    @include make-scale($breakpoint-large) {
-        width: $desktop-width;
+    .some-class {
+        width: 100%; /* Mobile width */
+
+        @include make-scale($breakpoint-medium) {
+            width: 720px; /* Tablet width */
+        }
     }
 
 The default breakpoints, stored in the **_variables.scss** file, are as follows:
