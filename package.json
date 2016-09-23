@@ -1,6 +1,6 @@
 {
   "name": "endive-scss",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Simplistic SCSS framework to assist in rapid front-end development",
   "main": "index.js",
   "scripts": {
