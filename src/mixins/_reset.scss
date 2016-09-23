@@ -6,8 +6,6 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: $default-font-family;
-    color: $font-color;
   }
 
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -42,5 +40,9 @@
   *:before,
   *:after {
     box-sizing: border-box;
+  }
+  body {
+    font-family: $default-font-family;
+    color: $font-color;
   }
 }
